@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JogoDaVelha</string>
+    <string name="primeiro"> </string>
+    <string name="segundo"> </string>
+    <string name="terceiro"></string>
+    <string name="quarto"> </string>
+    <string name="quinto"> </string>
+    <string name="sexto"> </string>
+    <string name="setimo"> </string>
+    <string name="oitavo"> </string>
+    <string name="nono"> </string>
+    <string name="vez_do_x">Vez do X</string>
+    <string name="jogador_1">Jogador 1</string>
+    <string name="jogador_2">Jogador 2</string>
+    <string name="jogar">Jogar</string>
+    <string name="by_ivans">by IvanS.</string>
+    <string name="vs">VS</string>
+
+
+</resources>

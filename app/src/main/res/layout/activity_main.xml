@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorAccent"
+    tools:context="com.example.ivan.jogodavelha.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/segundo"
+        android:layout_alignStart="@+id/segundo"
+        android:id="@+id/quinto"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:onClick="quinto"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/oitavo"
+        android:layout_below="@+id/quinto"
+        android:layout_alignStart="@+id/quinto"
+        android:textSize="18sp"
+        android:onClick="oitavo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/terceiro"
+        android:layout_alignBaseline="@+id/segundo"
+        android:layout_alignBottom="@+id/segundo"
+        android:layout_toEndOf="@+id/segundo"
+        android:textSize="18sp"
+        android:onClick="terceiro" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sexto"
+        android:layout_alignBaseline="@+id/quinto"
+        android:layout_alignBottom="@+id/quinto"
+        android:layout_toEndOf="@+id/segundo"
+        android:textSize="18sp"
+        android:onClick="sexto"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nono"
+        android:layout_below="@+id/sexto"
+        android:layout_toEndOf="@+id/oitavo"
+        android:textSize="18sp"
+        android:onClick="nono"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/segundo"
+        android:layout_alignBaseline="@+id/primeiro"
+        android:layout_alignBottom="@+id/primeiro"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:onClick="segundo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setimo"
+        android:layout_below="@+id/quarto"
+        android:layout_alignStart="@+id/quarto"
+        android:textSize="18sp"
+        android:onClick="setimo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quarto"
+        android:layout_alignBaseline="@+id/quinto"
+        android:layout_alignBottom="@+id/quinto"
+        android:layout_toStartOf="@+id/quinto"
+        android:textSize="18sp"
+        android:onClick="quarto"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:id="@+id/primeiro"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/segundo"
+        android:textSize="18sp"
+        android:onClick="primeiro"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ordem"
+        android:text="@string/vez_do_x"
+        android:layout_above="@+id/terceiro"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:text="@string/by_ivans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="14sp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/segundojogador"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/vs"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/vs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vs"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/primeirojogador"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/primeirojogador"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/resultado"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_light"
+        android:textAlignment="center"
+        android:layout_below="@+id/oitavo"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Reiniciar Partida"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/zera"
+        android:visibility="invisible"
+        android:onClick="zera"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/resultado"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

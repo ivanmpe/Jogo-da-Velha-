@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/game"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:text="@string/jogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/jogar"
+        android:onClick="jogar"
+        android:layout_below="@+id/segundojogador"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="33dp"
+        android:id="@+id/segundojogador"
+        android:hint="@string/jogador_2"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/primeirojogador"
+        android:layout_alignStart="@+id/primeirojogador" />
+
+    <ImageView
+        android:layout_width="150dp"
+        app:srcCompat="@drawable/icone"
+        android:id="@+id/imageView"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="42dp"
+        android:id="@+id/primeirojogador"
+        android:hint="@string/jogador_1"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
