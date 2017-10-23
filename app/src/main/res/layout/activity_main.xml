@@ -5,177 +5,177 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/colorAccent"
     tools:context="com.example.ivan.jogodavelha.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/segundo"
-        android:layout_alignStart="@+id/segundo"
         android:id="@+id/quinto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/segundo"
+        android:layout_below="@+id/segundo"
         android:fontFamily="sans-serif-medium"
-        android:textSize="18sp"
-        android:onClick="quinto"/>
+        android:onClick="quinto"
+        android:textSize="18sp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/oitavo"
-        android:layout_below="@+id/quinto"
-        android:layout_alignStart="@+id/quinto"
-        android:textSize="18sp"
-        android:onClick="oitavo"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/quinto"
+        android:layout_below="@+id/quinto"
+        android:onClick="oitavo"
+        android:textSize="18sp" />
+
+    <Button
         android:id="@+id/terceiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/segundo"
         android:layout_alignBottom="@+id/segundo"
         android:layout_toEndOf="@+id/segundo"
-        android:textSize="18sp"
-        android:onClick="terceiro" />
+        android:onClick="terceiro"
+        android:textSize="18sp" />
 
     <Button
+        android:id="@+id/sexto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/sexto"
         android:layout_alignBaseline="@+id/quinto"
         android:layout_alignBottom="@+id/quinto"
         android:layout_toEndOf="@+id/segundo"
-        android:textSize="18sp"
-        android:onClick="sexto"/>
+        android:onClick="sexto"
+        android:textSize="18sp" />
 
     <Button
+        android:id="@+id/nono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/nono"
         android:layout_below="@+id/sexto"
         android:layout_toEndOf="@+id/oitavo"
-        android:textSize="18sp"
-        android:onClick="nono"/>
+        android:onClick="nono"
+        android:textSize="18sp" />
 
     <Button
+        android:id="@+id/segundo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/segundo"
         android:layout_alignBaseline="@+id/primeiro"
         android:layout_alignBottom="@+id/primeiro"
         android:layout_centerHorizontal="true"
-        android:textSize="18sp"
-        android:onClick="segundo"/>
+        android:onClick="segundo"
+        android:textSize="18sp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/setimo"
-        android:layout_below="@+id/quarto"
-        android:layout_alignStart="@+id/quarto"
-        android:textSize="18sp"
-        android:onClick="setimo"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/quarto"
+        android:layout_below="@+id/quarto"
+        android:onClick="setimo"
+        android:textSize="18sp" />
+
+    <Button
         android:id="@+id/quarto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/quinto"
         android:layout_alignBottom="@+id/quinto"
         android:layout_toStartOf="@+id/quinto"
-        android:textSize="18sp"
-        android:onClick="quarto"/>
+        android:onClick="quarto"
+        android:textSize="18sp" />
 
     <Button
+        android:id="@+id/primeiro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="137dp"
-        android:id="@+id/primeiro"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="137dp"
         android:layout_toStartOf="@+id/segundo"
-        android:textSize="18sp"
         android:onClick="primeiro"
+        android:textSize="18sp"
         tools:ignore="RelativeOverlap" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/ordem"
-        android:text="@string/vez_do_x"
-        android:layout_above="@+id/terceiro"
-        android:layout_centerHorizontal="true"
-        android:textSize="18sp"
-        android:fontFamily="sans-serif"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/background_light" />
-
-    <TextView
-        android:text="@string/by_ivans"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:textSize="14sp"
-        android:textColor="@android:color/background_light"
-        android:layout_marginStart="13dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/segundojogador"
-        android:textSize="24sp"
-        android:textColor="@android:color/white"
-        android:textAlignment="center"
-        android:layout_marginTop="12dp"
-        android:layout_below="@+id/vs"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="@string/vs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/vs"
-        android:layout_marginTop="12dp"
-        android:textColor="@android:color/background_light"
-        android:layout_below="@+id/primeirojogador"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_height="wrap_content"
-        android:id="@+id/primeirojogador"
-        android:textSize="24sp"
-        android:textColor="@android:color/white"
         android:fontFamily="sans-serif"
-        android:layout_width="match_parent"
-        android:textAlignment="center"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        android:id="@+id/resultado"
+        android:text="@string/vez_do_x"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp"
         android:textStyle="normal|bold"
+        android:layout_below="@+id/segundojogador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:text="@string/by_ivans"
         android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/segundojogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/vs" />
+
+    <TextView
+        android:id="@+id/vs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vs"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/segundojogador" />
+
+    <TextView
+        android:id="@+id/primeirojogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/vs" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/oitavo"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="26dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <Button
-        android:text="Reiniciar Partida"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
         android:id="@+id/zera"
-        android:visibility="invisible"
-        android:onClick="zera"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/resultado"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:onClick="zera"
+        android:text="Reiniciar Partida"
+        android:visibility="invisible" />
 
 </RelativeLayout>

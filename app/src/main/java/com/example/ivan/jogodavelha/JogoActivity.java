@@ -17,6 +17,7 @@ public class JogoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.jogo);
+
         jogador1 = (EditText)findViewById(R.id.primeirojogador);
         jogador2 = (EditText)findViewById(R.id.segundojogador);
 

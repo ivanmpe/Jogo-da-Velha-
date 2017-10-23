@@ -3,6 +3,7 @@ package com.example.ivan.jogodavelha;
 import android.support.annotation.BoolRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Button;
@@ -41,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         this.resultado = (TextView)findViewById(R.id.resultado);
         this.ordem = (TextView)findViewById(R.id.ordem);
         this.primeiroJogador = (TextView)findViewById(R.id.primeirojogador);
@@ -76,291 +76,49 @@ public class MainActivity extends AppCompatActivity {
 
      // Views dos buttons
     public void primeiro(View v){
-
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))){
-              if ((primeiro.getText().equals("X") ) || (primeiro.getText().equals("O")) ){
-                   Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-             }else{
-                    int n = status();
-                    contador++;
-
-                    if (n == 1) {
-                      this.primeiro.setText("X");
-                      matriz[0][0] = 1;
-                      this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                       if (testaResultado(matriz, 1) == true) {
-                            this.resultado.setText(resultado("X"));
-                       }
-
-                       if((contador ==9) && (testaResultado(matriz,1)!=true)){
-                            this.resultado.setText(resultado("Empatou"));
-                       }
-
-                    } else {
-                         this.primeiro.setText("O");
-                         matriz[0][0] = 2;
-                         this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                         if (testaResultado(matriz, 2) == true) {
-                            this.resultado.setText(resultado("O"));
-                          }
-                         if((contador ==9) && (testaResultado(matriz,2)!=true)){
-                             this.resultado.setText(resultado("Empatou"));
-                        }
-                    }
-             }
-        }
+        logica(primeiro, 0,0);
     }
 
     public void segundo(View v) {
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))) {
-
-            if ((segundo.getText().equals("X")) || (segundo.getText().equals("O"))) {
-                Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-            } else {
-
-                int n = status();
-                contador++;
-                if (n == 1) {
-                    this.segundo.setText("X");
-                    matriz[0][1] = 1;
-                    this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                    if (testaResultado(matriz, 1) == true) {
-                        this.resultado(resultado("X"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 1) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-
-                } else {
-                    this.segundo.setText("O");
-                    matriz[0][1] = 2;
-                    this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                    if (testaResultado(matriz, 2) == true) {
-                        this.resultado(resultado("O"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 2) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-                }
-            }
-        }
+        logica(segundo, 0,1);
     }
 
     public void terceiro(View v) {
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))) {
-            if ((terceiro.getText().equals("X")) || (terceiro.getText().equals("O"))) {
-                Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-            } else {
-                int n = status();
-                contador++;
-                if (n == 1) {
-                    this.terceiro.setText("X");
-                    matriz[0][2] = 1;
-                    this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                    if (testaResultado(matriz, 1) == true) {
-                        this.resultado.setText(resultado("X"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 1) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-
-                } else {
-                    this.terceiro.setText("O");
-                    matriz[0][2] = 2;
-                    this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                    if (testaResultado(matriz, 2) == true) {
-                        this.resultado.setText(resultado("O"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 2) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-                }
-            }
-        }
+        logica(terceiro, 0,2);
     }
 
     public void quarto(View v) {
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))) {
-
-            if ((quarto.getText().equals("X")) || (quarto.getText().equals("O"))) {
-                Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-            } else {
-                int n = status();
-                contador++;
-                if (n == 1) {
-                    this.quarto.setText("X");
-                    matriz[1][0] = 1;
-                    this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                    if (testaResultado(matriz, 1) == true) {
-                        this.resultado.setText(resultado("X"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 1) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-
-
-                } else {
-                    this.quarto.setText("O");
-                    matriz[1][0] = 2;
-                    this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                    if (testaResultado(matriz, 2) == true) {
-                        this.resultado.setText(resultado("O"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 2) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-                }
-            }
-        }
-
-    }
+        logica(quarto, 1,0);
+     }
 
     public void quinto(View v){
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))) {
-
-            if ((quinto.getText().equals("X")) || (quinto.getText().equals("O"))) {
-                Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-            } else {
-                int n = status();
-                contador++;
-                if (n == 1) {
-                    this.quinto.setText("X");
-                    matriz[1][1] = 1;
-                    this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                    if (testaResultado(matriz, 1) == true) {
-                        this.resultado.setText(resultado("X"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 1) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-                } else {
-                    this.quinto.setText("O");
-                    matriz[1][1] = 2;
-                    this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                    if (testaResultado(matriz, 2) == true) {
-                        this.resultado.setText(resultado("O"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 2) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-
-
-                }
-            }
-        }
+        logica(quinto, 1,1);
     }
 
 
     public void sexto(View v){
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))){
-            if ((sexto.getText().equals("X")) || (sexto.getText().equals("O"))) {
-                Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-            } else {
-                int n = status();
-                contador++;
-                if (n == 1) {
-                    this.sexto.setText("X");
-                    matriz[1][2] = 1;
-                    this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                    if (testaResultado(matriz, 1) == true) {
-                        this.resultado.setText(resultado("X"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 1) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-
-                } else {
-                    this.sexto.setText("O");
-                    matriz[1][2] = 2;
-                    this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                    if (testaResultado(matriz, 2) == true) {
-                        this.resultado.setText(resultado("O"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 2) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-                }
-            }
-        }
+        logica(sexto, 1,2);
     }
 
 
     public void setimo(View v) {
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))){
-            if ((setimo.getText().equals("X")) || (setimo.getText().equals("O"))) {
-                Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-            } else {
-                int n = status();
-                contador++;
-                if (n == 1) {
-                    this.setimo.setText("X");
-                    matriz[2][0] = 1;
-                    this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                    if (testaResultado(matriz, 1) == true) {
-                        this.resultado.setText(resultado("X"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 1) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-                } else {
-                    this.setimo.setText("O");
-                    matriz[2][0] = 2;
-                    this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                    if (testaResultado(matriz, 2) == true) {
-                        this.resultado.setText(resultado("O"));
-                    }
-                    if ((contador == 9) && (testaResultado(matriz, 2) != true)) {
-                        this.resultado.setText(resultado("Empatou"));
-                    }
-                }
-            }
-        }
+        logica(setimo, 2,0);
     }
 
     public void oitavo(View v){
-        if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))){
-               if ((oitavo.getText().equals("X") ) || (oitavo.getText().equals("O")) ){
-                 Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
-               }else {
-                   int n = status();
-                   contador++;
-                   if (n == 1) {
-                       this.oitavo.setText("X");
-                       matriz[2][1] = 1;
-                       this.ordem.setText("Vez do(a) " + segundoJogador.getText());
-                       if (testaResultado(matriz, 1) == true) {
-                           this.resultado.setText(resultado("X"));
-                       }
-                       if ((contador == 9) && (testaResultado(matriz, 1) != true)) {
-                           this.resultado.setText(resultado("Empatou"));
-                       }
-                   } else {
-                       this.oitavo.setText("O");
-                       matriz[2][1] = 2;
-                       this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
-                       if (testaResultado(matriz, 2) == true) {
-                           this.resultado.setText(resultado("O"));
-                       }
-                       if ((contador == 9) && (testaResultado(matriz, 2) != true)) {
-                           this.resultado.setText(resultado("Empatou"));
-                       }
-                   }
-
-               }
-            }
+        logica(oitavo, 2,1);
     }
 
-
-    public void nono(View v){
+    public void logica(Button button, int x, int y){
         if((testaResultado(matriz,1)!=true) && ((testaResultado(matriz,2)!=true))){
-            if ((nono.getText().equals("X")) || (nono.getText().equals("O"))) {
+            if ((button.getText().equals("X")) || (button.getText().equals("O"))) {
                 Toast.makeText(getBaseContext(), "Escolha outro espaço.", Toast.LENGTH_SHORT).show();
             } else {
                 int n = status();
                 contador++;
                 if (n == 1) {
-                    this.nono.setText("X");
-                    matriz[2][2] = 1;
+                    button.setText("X");
+                    matriz[x][y] = 1;
                     this.ordem.setText("Vez do(a) " + segundoJogador.getText());
                     if (testaResultado(matriz, 1) == true) {
                         this.resultado.setText(resultado("X"));
@@ -371,8 +129,8 @@ public class MainActivity extends AppCompatActivity {
 
 
                 } else {
-                    this.nono.setText("O");
-                    matriz[2][2] = 2;
+                    button.setText("O");
+                    matriz[x][y] = 2;
                     this.ordem.setText("Vez do(a) " + primeiroJogador.getText());
                     if (testaResultado(matriz, 2) == true) {
                         this.resultado.setText(resultado("O"));
@@ -383,8 +141,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
-
     }
+    public void nono(View v){
+        logica(nono, 2, 2);
+   }
 
 
     public Boolean testaResultado(int matriz[][],int valor){

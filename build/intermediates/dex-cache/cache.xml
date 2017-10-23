@@ -11,6 +11,15 @@
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_b96b2d8c8081b9a4fb8847ba219eb32879f88ea0.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\ff836e15ad7e4d1389a8e7906c52bf0b3a218ee2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2b1f8664ef8a78fd6d7cd24a292c6b24f81792b\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Ivan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="false"
@@ -21,12 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jar="C:\Users\Ivan\.android\build-cache\14f391e9d7450ab2f82490c601557a8db3229e7c\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.0.0_56dfa450eb732e33bc431226a06d061e74c219c1.jar" />
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_033b9e32719259491686810b96c875ddb31763c3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -38,31 +47,22 @@
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_6cdbc0d907702cc3c02892bd132cc4d4ac12d9dc.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\e0475ccf1f46fab15d12bd33ac2ab1596b5a4d1a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_413c54d61a113872f506ab49197cd09d2ccb8d7e.jar" />
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_876356fed74e6dfb54e406507b0c9d690a735539\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ivan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
+        jar="C:\Users\Ivan\.android\build-cache\691b394154303abc62710a2f0ef8e96b5e3624fa\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_6fe892832e83747b0b057df3c3799c27fa8ec122.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
+        revision="25.0.0"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a378dc68bdba24a6de19f8342fec89a2a9ac0bd0.jar" />
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_5d726b6c21bb0126713dce3e507f37cce1a3cdff.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,12 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
+        jar="C:\Users\Ivan\.android\build-cache\ff836e15ad7e4d1389a8e7906c52bf0b3a218ee2\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.3"
+        revision="25.0.0"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_f16a93b11f216b933199156889e2cd018a2baf7a.jar" />
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_da433ce264d8c5b5563c87d5ff08d8ca63b2b9e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\eb8f51a2aa68ddfd70f033a055ec4bb1b86b709d\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7250fec84dc50e3029eea1a97c415d995b8a561f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -92,31 +101,13 @@
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_4bda747194b5c20851ab8420687d14ef3e28a021.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_4cfc436ac09eca0b512316e66b740664219439fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_13170cb3906a6561b1e1e52677c995aaba0ea7ea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.0.0_b96b2d8c8081b9a4fb8847ba219eb32879f88ea0.jar" />
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_37cd6ddf78aa120b67c8dbffcf1c3c34316282ac\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -156,21 +147,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jar="C:\Users\Ivan\.android\build-cache\bcd63b076813c88b3347e4a0f902b244b0097d63\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.3"
+        revision="25.0.0"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.0.0_ff77e4a0aee88efe4f641cf86dfe37f0134583b4.jar" />
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_cdf8f7e6bc613996d5836f61f1b0bd8f0f35f40c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Ivan\.android\build-cache\14f1cf396597b8b13cf631c1e09c97e4c9c4ce60\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.3"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_8df2666c4569b10554adb7d9f10ec009b1dc1cb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\691b394154303abc62710a2f0ef8e96b5e3624fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_8cfc4c1404917034c2337f7d0dda09e706946192.jar" />
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_f0ea395b21b5f372cfcaf7971248901a8e1133c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\9b9cf31b4b5bf52a530b651812f54c8cf4e2ec0d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_05ba56f26487c1a0b577749bd11ca2b93f7113b9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,30 +192,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_fd169651228db232f941445cc957dd3571424701.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="26674000177e45447a0326a6ad84612761199a13">
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.0.0_8cfc4c1404917034c2337f7d0dda09e706946192.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.0.0_4cfc436ac09eca0b512316e66b740664219439fe.jar" />
     </item>
     <item
         is-multidex="false"
@@ -219,12 +210,309 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\4f9b3f1cd072698c5cd561a6e28d454ea1c315d6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_872aa4a686afaca727a2c01269a1b5deea00b4fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\14f1cf396597b8b13cf631c1e09c97e4c9c4ce60\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_2034335b3f39aacfb41ddc0617e8d8e6877d5205.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="a2b546c128170dbcee6c585f3f78977c7aebfd70">
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_ac69b5a4de81c2299550f2e8575eff1b1843af8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.0.0_88460d80cfa6758ccd83920272c37dc600cbc6c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\14f391e9d7450ab2f82490c601557a8db3229e7c\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_91ac080d35c2fb4b72492d97012bcc00f204aa31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6cdbc0d907702cc3c02892bd132cc4d4ac12d9dc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\eb8f51a2aa68ddfd70f033a055ec4bb1b86b709d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be6a4d1b1237277d855e743d94d9bb31264f51df\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="965f0e585f86622697c958a31358e1203bb94e44">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\instant-run_36b226283615be60b6af5b421041893a8079992d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58df4e8a589f4230a54fb13a6a0b475e42bddd89">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eec40d78af980a5a5a083fd90ec30c2e4588c66a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_6fe892832e83747b0b057df3c3799c27fa8ec122.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\14f391e9d7450ab2f82490c601557a8db3229e7c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_033b9e32719259491686810b96c875ddb31763c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\bcd63b076813c88b3347e4a0f902b244b0097d63\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdf8f7e6bc613996d5836f61f1b0bd8f0f35f40c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.0.0_56dfa450eb732e33bc431226a06d061e74c219c1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\691b394154303abc62710a2f0ef8e96b5e3624fa\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_5d726b6c21bb0126713dce3e507f37cce1a3cdff\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_413c54d61a113872f506ab49197cd09d2ccb8d7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_6fe892832e83747b0b057df3c3799c27fa8ec122.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\e0475ccf1f46fab15d12bd33ac2ab1596b5a4d1a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_876356fed74e6dfb54e406507b0c9d690a735539.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a378dc68bdba24a6de19f8342fec89a2a9ac0bd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\.android\build-cache\ff836e15ad7e4d1389a8e7906c52bf0b3a218ee2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_d2b1f8664ef8a78fd6d7cd24a292c6b24f81792b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_f16a93b11f216b933199156889e2cd018a2baf7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_4cfc436ac09eca0b512316e66b740664219439fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_13170cb3906a6561b1e1e52677c995aaba0ea7ea.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\ff836e15ad7e4d1389a8e7906c52bf0b3a218ee2\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_da433ce264d8c5b5563c87d5ff08d8ca63b2b9e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.0.0_b96b2d8c8081b9a4fb8847ba219eb32879f88ea0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\eb8f51a2aa68ddfd70f033a055ec4bb1b86b709d\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7250fec84dc50e3029eea1a97c415d995b8a561f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.0.0_ff77e4a0aee88efe4f641cf86dfe37f0134583b4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\9b9cf31b4b5bf52a530b651812f54c8cf4e2ec0d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05ba56f26487c1a0b577749bd11ca2b93f7113b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_8cfc4c1404917034c2337f7d0dda09e706946192.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\14f1cf396597b8b13cf631c1e09c97e4c9c4ce60\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8df2666c4569b10554adb7d9f10ec009b1dc1cb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_fd169651228db232f941445cc957dd3571424701.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.0.0_4cfc436ac09eca0b512316e66b740664219439fe.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\691b394154303abc62710a2f0ef8e96b5e3624fa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f0ea395b21b5f372cfcaf7971248901a8e1133c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\14f1cf396597b8b13cf631c1e09c97e4c9c4ce60\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2034335b3f39aacfb41ddc0617e8d8e6877d5205\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\4f9b3f1cd072698c5cd561a6e28d454ea1c315d6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_872aa4a686afaca727a2c01269a1b5deea00b4fd\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -237,12 +525,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jar="C:\Users\Ivan\.android\build-cache\eb8f51a2aa68ddfd70f033a055ec4bb1b86b709d\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.0.0_88460d80cfa6758ccd83920272c37dc600cbc6c5.jar" />
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\pre-dexed\debug\classes_be6a4d1b1237277d855e743d94d9bb31264f51df.jar" />
     </item>
     <item
         is-multidex="false"
@@ -263,13 +551,13 @@
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_56dfa450eb732e33bc431226a06d061e74c219c1.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        is-multidex="true"
+        jar="C:\Users\Ivan\.android\build-cache\14f391e9d7450ab2f82490c601557a8db3229e7c\output\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.3"
+        revision="25.0.0"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6cdbc0d907702cc3c02892bd132cc4d4ac12d9dc.jar" />
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_91ac080d35c2fb4b72492d97012bcc00f204aa31\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -281,13 +569,13 @@
         <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_88460d80cfa6758ccd83920272c37dc600cbc6c5.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="true"
+        jar="C:\Users\Ivan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.3"
-        sha1="965f0e585f86622697c958a31358e1203bb94e44">
-        <dex dex="C:\Users\Ivan\AndroidStudioProjects\JogoDaVelha\app\build\intermediates\pre-dexed\debug\instant-run_36b226283615be60b6af5b421041893a8079992d.jar" />
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Ivan\Documents\GitHub\Jogo-da-Velha-\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_6fe892832e83747b0b057df3c3799c27fa8ec122\classes.dex" />
     </item>
 
 </items>
