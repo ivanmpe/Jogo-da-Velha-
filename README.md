@@ -1,2 +1,2 @@
-# Jogo-da-Velha-
-Jogo da Velha Android 
+# Jogo da Velha
+Simples jogo da Velha Android 
